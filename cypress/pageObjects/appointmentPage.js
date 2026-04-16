@@ -1,3 +1,5 @@
+import { BasePage } from "./basePage";
+
 export class AppointmentPage {
   static get facility() {
     return cy.get("#combo_facility");

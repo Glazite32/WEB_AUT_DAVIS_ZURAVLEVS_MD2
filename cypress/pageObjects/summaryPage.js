@@ -1,3 +1,5 @@
+import { BasePage } from "./basePage";
+
 export class SummaryPage {
   static get facility() {
     return cy.get("#facility");

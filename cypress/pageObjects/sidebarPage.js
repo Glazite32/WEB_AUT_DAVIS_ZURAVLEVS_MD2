@@ -1,3 +1,5 @@
+import { BasePage } from "./basePage";
+
 export class SidebarPage {
   static get menuIcon() {
     return cy.get("#menu-toggle");
